@@ -1,7 +1,7 @@
 .idea
 .vscode
 bin
-tmp/
+*tmp*
 .env
 .horusec/
 node_modules
