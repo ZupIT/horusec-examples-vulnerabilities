@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.br.soujava'
+group 'br.com.zup.vulnerabilities'
 version '1.0.0-SNAPSHOT'
 
 repositories {
