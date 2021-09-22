@@ -4,3 +4,5 @@ bin
 tmp/
 .env
 .horusec/
+node_modules
+venv
