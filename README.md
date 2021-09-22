@@ -19,7 +19,7 @@ This repository contains some examples of vulnerabilities for you test horusec a
 ## What is Horusec?
 Horusec is an open source tool that performs static code analysis to identify security flaws during the development process. Currently, the languages for analysis are: C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx. The tool has options to search for key leaks and security flaws in all files of your project, as well as in Git history. Horusec can be used by the developer through the CLI and by the DevSecOps team on CI /CD mats. See in our [DOCUMENTATION](https://horusec.io/docs/overview/) the complete list of tools and languages that we perform analysis
 
-<p align="center" margin="20 0"><img src="https://github.com/ZupIT/horusec-devkit/blob/main/assets/horusec-complete-architecture.png" alt="architecture" width="100%" style="max-width:100%;"/></p>
+<p align="center" margin="20 0"><img src="https://github.com/ZupIT/horusec/blob/main/assets/horusec-complete-architecture.png?raw=true" alt="architecture" width="100%" style="max-width:100%;"/></p>
 
 ## Communication
 
@@ -32,11 +32,11 @@ We have a few channels for contact, feel free to reach out to us at:
 
 Feel free to use, recommend improvements, or contribute to new implementations.
 
-Read our [contributing guide](https://github.com/ZupIT/horusec-devkit/blob/main/CONTRIBUTING.md) to learn about our development process,
+Read our [contributing guide](https://github.com/ZupIT/horusec/blob/main/CONTRIBUTING.md) to learn about our development process,
 how to propose bugfixes and improvements, and how to build and test your changes to horusec.
 
 #### Roadmap
-We have a [page to talk about our roadmap](https://github.com/ZupIT/horusec-devkit/blob/main/ROADMAP.md), come contribute with us!
+We have a [page to talk about our roadmap](https://github.com/ZupIT/horusec/blob/main/ROADMAP.md), come contribute with us!
 
 If this is our first repository that you visit, or would like to know more about Horusec,
 check out some of our other projects.
