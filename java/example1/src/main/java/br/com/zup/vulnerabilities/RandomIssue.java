@@ -13,12 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package br.com.zup.vulnerabilities;
 
 import java.util.Random;
 
-public class RandomVulnerability {
+public class RandomIssue {
 
     public static void main(String[] args) {
         Random random = new Random();
