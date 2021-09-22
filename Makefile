@@ -4,11 +4,11 @@ ADDLICENSE ?= addlicense
 
 license:
 	$(GO) get -u github.com/google/addlicense
-	@$(ADDLICENSE) -check -f ./copyright.txt $(shell find . -type f -not -path "./.git/*" | sort -u)
+	@$(ADDLICENSE) -check -f ./copyright.txt $(shell find . -type f -not -path "./.git/*" -not -path "./csharp/example2/*" | sort -u)
 
 license-fix:
 	$(GO) get -u github.com/google/addlicense
-	@$(ADDLICENSE) -f ./copyright.txt $(shell find . -type f -not -path "./.git/*" | sort -u)
+	@$(ADDLICENSE) -f ./copyright.txt $(shell find . -type f -not -path "./.git/*" -not -path "./csharp/example2/*" | sort -u)
 
 
 security:
