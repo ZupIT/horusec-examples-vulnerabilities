@@ -20,7 +20,7 @@ import javax.net.ssl.*;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
-public class AllTrustManager implements X509TrustManager {
+public class AllTrustManagerIssue implements X509TrustManager {
 
     public X509Certificate[] getAcceptedIssuers() {
         return new X509Certificate[0];

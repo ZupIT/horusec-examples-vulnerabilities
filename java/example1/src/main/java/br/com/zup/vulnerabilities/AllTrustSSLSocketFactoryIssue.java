@@ -24,22 +24,16 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 
-/**
- * import com.sun.net.ssl.*;
- *
- * @author Ivan Jouikov (ivan@ablogic.net)
- * @version 0.1
- */
-public class AllTrustSSLSocketFactory extends SSLSocketFactory {
+public class AllTrustSSLSocketFactoryIssue extends SSLSocketFactory {
     private SSLSocketFactory factory;
 
-    public AllTrustSSLSocketFactory() {
+    public AllTrustSSLSocketFactoryIssue() {
         System.out.println("DummySocketFactory instantiated");
         try {
             SSLContext sslcontext = SSLContext.getInstance("TLS");
             sslcontext.init(null, // No KeyManager required
                     new TrustManager[]
-                            {new AllTrustManager()}, new java.security.SecureRandom());
+                            {new AllTrustManagerIssue()}, new java.security.SecureRandom());
             factory = (SSLSocketFactory) sslcontext.getSocketFactory();
 
         } catch (Exception ex) {
@@ -48,7 +42,7 @@ public class AllTrustSSLSocketFactory extends SSLSocketFactory {
     }
 
     public static SocketFactory getDefault() {
-        return new AllTrustSSLSocketFactory();
+        return new AllTrustSSLSocketFactoryIssue();
     }
 
     public Socket createSocket(Socket socket, String s, int i, boolean flag)
