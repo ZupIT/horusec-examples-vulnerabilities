@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package br.com.zup.vulnerabilities;
+package br.com.zup.vulnerabilities.random;
 
-import java.util.concurrent.ThreadLocalRandom;
+import java.util.Random;
 
-public class RandomSecure {
+public class RandomIssue {
 
     public static void main(String[] args) {
-        ThreadLocalRandom random = ThreadLocalRandom.current();
+        Random random = new Random();
         System.out.println(random.nextInt(50));
         System.out.println("Hello World!");
     }
