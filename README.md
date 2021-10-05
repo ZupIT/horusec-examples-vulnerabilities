@@ -12,42 +12,42 @@
     <a href="https://opensource.org/licenses/Apache-2.0" alt="license">
         <img src="https://img.shields.io/badge/license-Apache%202-blue"/></a>
 
-# Horusec Example Vulnerabilities
+# **Horusec Examples Vulnerabilities**
 
-This repository contains some examples of vulnerabilities for you test horusec analysis.
+This repository contains some vulnerabilities examples for you to test Horusec's analysis.
 
-## What is Horusec?
-Horusec is an open source tool that performs static code analysis to identify security flaws during the development process. Currently, the languages for analysis are: C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx. The tool has options to search for key leaks and security flaws in all files of your project, as well as in Git history. Horusec can be used by the developer through the CLI and by the DevSecOps team on CI /CD mats. See in our [DOCUMENTATION](https://horusec.io/docs/overview/) the complete list of tools and languages that we perform analysis
+## **What is Horusec?**
+Horusec is an open-source tool that performs a static code analysis to identify security flaws during the development process. Currently, the languages for analysis are C#, Java, Kotlin, Python, Ruby, Golang, Terraform, Javascript, Typescript, Kubernetes, PHP, C, HTML, JSON, Dart, Elixir, Shell, Nginx. 
+The tool has options to search for key leaks and security flaws in all your project's files, as well as in Git history. Horus can be used by the developer through the CLI and by the DevSecOps team on CI /CD mats. 
 
 <p align="center" margin="20 0"><img src="https://github.com/ZupIT/horusec/blob/main/assets/horusec-complete-architecture.png?raw=true" alt="architecture" width="100%" style="max-width:100%;"/></p>
 
-## Communication
+## **Documentation**
 
-We have a few channels for contact, feel free to reach out to us at:
+For more information about Horusec, please check out the [**documentation**](https://horusec.io/docs/).
 
-- [GitHub Issues](https://github.com/ZupIT/horusec-example-vulnerabilities/issues)
-- [Zup Open Source Forum](https://forum.zup.com.br)
 
-## Contributing
+## **Contributing**
 
-Feel free to use, recommend improvements, or contribute to new implementations.
+If you want to contribute to this repository, access our [**Contributing Guide**](https://github.com/ZupIT/charlescd/blob/main/CONTRIBUTING.md). 
+And if you want to know more about Horusec, check out some of our other projects:
 
-Read our [contributing guide](https://github.com/ZupIT/horusec/blob/main/CONTRIBUTING.md) to learn about our development process,
-how to propose bugfixes and improvements, and how to build and test your changes to horusec.
 
-#### Roadmap
-We have a [page to talk about our roadmap](https://github.com/ZupIT/horusec/blob/main/ROADMAP.md), come contribute with us!
+- [**Admin**](https://github.com/ZupIT/horusec-admin)
+- [**Charts**](https://github.com/ZupIT/charlescd/tree/main/circle-matcher)
+- [**Devkit**](https://github.com/ZupIT/horusec-devkit)
+- [**Jenkins**](https://github.com/ZupIT/horusec-jenkins-sharedlib)
+- [**Operator**](https://github.com/ZupIT/horusec-operator)
+- [**Platform**](https://github.com/ZupIT/horusec-platform)
+- [**VSCode plugin**](https://github.com/ZupIT/horusec-vscode-plugin)
+- [**Kotlin**](https://github.com/ZupIT/horusec-tree-sitter-kotlin)
 
-If this is our first repository that you visit, or would like to know more about Horusec,
-check out some of our other projects.
 
-- [Horusec CLI](https://github.com/ZupIT/horusec)
-- [Horusec Platform](https://github.com/ZupIT/horusec-platform)
-- [Horusec DevKit](https://github.com/ZupIT/horusec-devkit)
-- [Horusec Engine](https://github.com/ZupIT/horusec-engine)
-- [Horusec Operator](https://github.com/ZupIT/horusec-operator)
-- [Horusec Admin](https://github.com/ZupIT/horusec-admin)
-- [Horusec VsCode](https://github.com/ZupIT/horusec-vscode-plugin)
+## **Community**
+Feel free to reach out to us at:
 
-This project exists thanks to all the contributors. You rock! ❤️ 🚀
+- [**GitHub Issues**](https://github.com/ZupIT/horusec-devkit/issues)
+- [**Zup Open Source Forum**](https://forum.zup.com.br)
 
+
+This project exists thanks to all the contributors. You rock! ❤️🚀
