@@ -13,42 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package br.com.zup.vulnerabilities.trust;
 
-package com.mycompany.app;
+import javax.net.ssl.*;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+public class AllTrustManagerIssue implements X509TrustManager {
+
+    public X509Certificate[] getAcceptedIssuers() {
+        return new X509Certificate[0];
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public void checkClientTrusted(X509Certificate[] arg0, String arg1)
+            throws CertificateException {
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void checkServerTrusted(X509Certificate[] arg0, String arg1)
+            throws CertificateException {
     }
 }

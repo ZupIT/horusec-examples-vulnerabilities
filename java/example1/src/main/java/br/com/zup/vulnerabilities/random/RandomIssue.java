@@ -13,20 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package br.com.zup.vulnerabilities.random;
 
-package com.mycompany.app;
 import java.util.Random;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        Random rand = new Random();
-        System.out.println(rand.nextInt(50));
-        System.out.println( "Hello World!" );
+public class RandomIssue {
+
+    public static void main(String[] args) {
+        Random random = new Random();
+        System.out.println(random.nextInt(50));
+        System.out.println("Hello World!");
     }
 }
