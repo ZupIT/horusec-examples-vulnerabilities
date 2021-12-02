@@ -27,7 +27,7 @@ This repository contains some vulnerabilities examples for you to test Horusec's
 
 ## **Documentation**
 
-For more information about Horusec, please check out the [**documentation**](https://horusec.io/docs/).
+For more information about Horusec, please check out the [**documentation**](https://docs.horusec.io).
 
 
 ## **Contributing**
