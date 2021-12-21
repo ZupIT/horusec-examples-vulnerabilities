@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+application {
+    getMainClass().set("br.com.zup.vulnerabilities.MyApp")
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.apache.logging.log4j:log4j-api:2.14.0'
+    runtimeOnly 'org.apache.logging.log4j:log4j-core:2.14.0'
+}
