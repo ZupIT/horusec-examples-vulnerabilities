@@ -13,7 +13,7 @@ license-fix:
 
 security:
     ifeq (, $(shell which $(HORUSEC)))
-		curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest
+		curl -fsSL https://raw.githubusercontent.com/ZupIT/horusec/main/deployments/scripts/install.sh | bash -s latest-rc
 		$(HORUSEC) start -p="./" -G="true" -I="true"
     else
 		$(HORUSEC) start -p="./" -G="true" -I="true"
