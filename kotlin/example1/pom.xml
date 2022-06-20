@@ -26,7 +26,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <kotlin.version>1.3.72</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <junit.version>4.12</junit.version>
         <main.class>hello.HelloKt</main.class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
